@@ -19,27 +19,14 @@
         color: #2A2825;
         font-family: 'Merriweather', serif;
      }
-
-     li {
-       font-family: 'Barlow Condensed', sans-serif;
-       font-size: 18px;
-     }
-
-     .paragraph-font-change {
-       font-size: 14px;
-       margin-top: 12px;
-       margin-bottom: 10px;
-     }
-
-     .smaller-paragraph-spacing{
-        margin-top: -15px;
-        margin-bottom: 40px;
-     }
-
      a {
       color: #087E48;
       text-decoration: none;
      }
+
+     a:hover {
+       color: #F3900B;
+      }
 
       table, th, td {
         border: 1px solid white;
@@ -64,3 +51,38 @@
         padding-right: 60px;
         padding-top: 5px;
       }
+
+     li {
+       font-family: 'Barlow Condensed', sans-serif;
+       font-size: 18px;
+     }
+
+     .smaller-paragraph-spacing{
+        margin-top: -15px;
+        margin-bottom: 40px;
+     }
+
+     .description {
+       font-size: 12px;
+       line-height: 18px;
+       margin-top: 12px;
+       margin-bottom: 10px;
+       width: 620px;
+     }
+
+     .photo-credit {
+       font-size: 12px;
+       margin-top: 2px;
+     }
+
+     .ingredient-list-comment{
+       font-size: 10px;
+       line-height: 16px;
+       margin-top: 40px;
+       margin-bottom: 5px;
+     }
+
+     .other-recipes {
+       font-size: 14px;
+       padding-left: 15px;
+     }
