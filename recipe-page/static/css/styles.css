@@ -59,17 +59,18 @@
      }
 
      .center-hero-image {
-       width: 100%;
+       padding-left: 200px;
      }
      .left {
        width: 600px;
        float:left;
+       padding-left: 70px;
      }
 
      .right {
        width: 600px;
        float: right;
-       padding-top: 100px;
+       padding-top: -15px;
      }
 
      .smaller-paragraph-spacing{
