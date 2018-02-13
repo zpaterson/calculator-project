@@ -5,7 +5,8 @@
     h1 {
       color: #5E3F1B;
       font-family: 'Lato', sans-serif;
-      font-size: 40px;
+      font-size: 70px;
+      margin-left: 70px;
     }
 
      h3, h4 {
@@ -57,17 +58,31 @@
        font-size: 18px;
      }
 
+     .center-hero-image {
+       width: 100%;
+     }
+     .left {
+       width: 600px;
+       float:left;
+     }
+
+     .right {
+       width: 600px;
+       float: right;
+       padding-top: 100px;
+     }
+
      .smaller-paragraph-spacing{
         margin-top: -15px;
         margin-bottom: 40px;
      }
 
      .description {
-       font-size: 12px;
-       line-height: 18px;
-       margin-top: 12px;
-       margin-bottom: 10px;
-       width: 620px;
+       font-size: 14px;
+       line-height: 22px;
+       margin-top: -30px;
+       margin-bottom: 50px;
+       margin-left: 70px;
      }
 
      .photo-credit {
