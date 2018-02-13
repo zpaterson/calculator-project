@@ -1,10 +1,18 @@
     body {
-      background-color: #FDFDF6;
+      background-color: #FCFCFC;
+    }
+
+    h1 {
+      color: #5E3F1B;
     }
 
      h3, h4 {
+       color: #20201F;
        margin-top: 40px;
-       margin-bottom: -2px;
+       margin-bottom: 10px;
+     }
+     p {
+        color: #2A2825;
      }
 
      .smaller-paragraph-spacing{
