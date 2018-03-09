@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Zaire's Calculator Project</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+<body>
+  <div class="container">
+    <form name="calculator"/>
+      <div class="row">
+        <div class="col-md-12 col-xs-12">
+           <h1 id="result" class="text-primary"></h1>
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <input type="button" id="btn7" class="btn number" value="7">
+          <input type="button" id="btn8" class="btn number" value="8">
+          <input type="button" id="btn9" class="btn number" value="9">
+          <input type="button" id="btnDivide" class="btn operator" value="/">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <input type="button" id="btn4" class="btn number" value="4">
+          <input type="button" id="btn5" class="btn number" value="5">
+          <input type="button" id="btn6" class="btn number" value="6">
+          <input type="button" id="btnMultiply" class="btn operator" value="*">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <input type="button" id="btn1" class="btn number" value="1">
+          <input type="button" id="btn2" class="btn number" value="2">
+          <input type="button" id="btn3" class="btn number" value="3">
+          <input type="button" id="btnPlus" class="btn operator" value="+">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <input type="button" id="btn0" class="btn number" value="0">
+          <input type="button" id="btnDecimal" class="btn number" value=".">
+          <input type="button" id="btnPercent" class="btn number" value="%">
+          <input type="button" id="btnMinus" class="btn number" value="-">
+        </div>
+        <div class="col-md-12 col-xs-12">
+          <input type="button" id="btnclear" class="btn btnClearNums" value="Clear">
+          <input type="button" id="btnEqual" class="btn total" value="=">
+        </div>
+    </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

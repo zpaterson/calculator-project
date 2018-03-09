@@ -1,0 +1,36 @@
+.btn {
+      height: 100px;
+      width: 100px;
+      margin-top: 2px;
+      text-align: center;
+      align-content: center;
+      background-color: #CCE1E6;
+  }
+
+.btnClearNums {
+  width: 308px;
+}
+
+#btn0, #btn1, #btn2,
+#btn3, #btn4, #btn5,
+#btn6, #btn7, #btn8,
+#btn9, #btnEqual, #btnPlus,
+#btnDivide, #btnMultiply, #btnMinus,
+#btnDecimal, #btnPercent {
+  font-size: 3em;
+}
+
+#btnclear {
+  font-size: 2em;
+}
+
+#result {
+  height: 100px;
+  width: 412px;
+  padding-top: 15px;
+  margin-top: 50px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  padding-left: 15px;
+  border: 3px solid #CCE1E6;
+}
