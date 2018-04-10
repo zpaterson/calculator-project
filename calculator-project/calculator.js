@@ -10,7 +10,7 @@ $(document).ready(function() {
   var calculation;
 
   $(".btn").click(function() {
-    
+    // What can you do here to make "push" a one stop shop?
     $("#result").html(resultArray);
  });
 
