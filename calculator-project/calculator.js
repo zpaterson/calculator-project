@@ -10,7 +10,7 @@ $(document).ready(function() {
   var calculation;
 
   $(".btn").click(function() {
-    resultArray.push(this.value);
+    
     $("#result").html(resultArray);
  });
 
